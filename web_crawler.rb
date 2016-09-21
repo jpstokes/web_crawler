@@ -3,7 +3,7 @@ require 'open-uri'
 require 'anemone'
 
 # Crawl website and find each page contained in site
-Anemone.crawl('http://plecco.net') do |anemone|
+Anemone.crawl('url to a site') do |anemone|
   anemone.on_every_page do |page|
 
     # Save page to doc
